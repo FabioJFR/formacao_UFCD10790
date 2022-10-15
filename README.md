@@ -1,2 +1,4 @@
 # formacao_UFCD10790
- formação
+ # feedback Application
+ Descrição: uma aplicação da formação
+ funcionalidades: Criar conta, fazer login
