@@ -7,7 +7,7 @@ function Media() {
   return (
     <>
 
-      <h3>Media de Posts : {nrPosts/nrAlunos}</h3>
+      <h3>Media de Posts: {nrPosts/nrAlunos}</h3>
 
     </>
   )
