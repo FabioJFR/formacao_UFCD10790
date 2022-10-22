@@ -16,3 +16,6 @@ function Media() {
 export default Media
 
 //comando para gerar componente React : rfce
+// comando para refrescar as branches : git fecth
+//comando para ir buscar alterações : git pull
+//comando para visualizr a branch : git branch
