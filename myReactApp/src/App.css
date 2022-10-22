@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.meuEstilo{
+  color: aquamarine;
+  background-color: coral;
+  
+}
