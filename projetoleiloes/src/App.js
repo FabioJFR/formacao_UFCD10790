@@ -1,21 +1,22 @@
-import logo from './logo.svg';
+import React, {usestate} from 'react';
 import './App.css';
+import header from './componetes/header';
 
 function App() {
 
   const titulo = "Leilões";
-  const estilo = {
-    color: "white",
-    backgroundColor: "grey",
-
-  }
-
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className='estilo' style={estilo}>{titulo}</h1>
+    <>
+    
+      <header title={titulo} bgColor='rgba(0,0,0,0.4)' textColor='#ff6a95'>
+        <div className='container'>
+          <h1>{titulo}</h1>
+        </div>
       </header>
-    </div>
+    
+
+    </>
   );
 }
 
